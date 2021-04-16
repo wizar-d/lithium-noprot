@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LithiumLite"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/world/Downloads/Lithium-Lite-Latest-main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LithiumLite">
+				<Option output="C:/Users/world/Downloads/Lithium-Lite-Latest-main/cmake-build-debug/LithiumLite.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/world/Downloads/Lithium-Lite-Latest-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/world/Downloads/Lithium-Lite-Latest-main/."/>
+					<Add directory="C:/Users/world/Downloads/Lithium-Lite-Latest-main/auth"/>
+					<Add directory="C:/Users/world/Downloads/Lithium-Lite-Latest-main/auth/crypto"/>
+					<Add directory="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui"/>
+					<Add directory="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/fonts"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 LithiumLite"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LithiumLite/fast">
+				<Option output="C:/Users/world/Downloads/Lithium-Lite-Latest-main/cmake-build-debug/LithiumLite.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/world/Downloads/Lithium-Lite-Latest-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/world/Downloads/Lithium-Lite-Latest-main/."/>
+					<Add directory="C:/Users/world/Downloads/Lithium-Lite-Latest-main/auth"/>
+					<Add directory="C:/Users/world/Downloads/Lithium-Lite-Latest-main/auth/crypto"/>
+					<Add directory="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui"/>
+					<Add directory="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/fonts"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 LithiumLite/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/world/Downloads/Lithium-Lite-Latest-main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/world/Downloads/Lithium-Lite-Latest-main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\world\Downloads\Lithium-Lite-Latest-main\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/auth/auth.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/auth/crypto/md5.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/auth/crypto/md5.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/auth/crypto/sha256.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/auth/crypto/sha512.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/auth/crypto/sha512.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/auth/json.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/fonts/fa.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/fonts/roboto.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imconfig.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imgui.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imgui.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imgui_demo.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imgui_draw.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imgui_impl_dx11.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imgui_impl_dx11.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imgui_impl_win32.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imgui_impl_win32.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imgui_internal.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imgui_tables.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imgui_widgets.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imstb_rectpack.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imstb_textedit.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/imgui/imstb_truetype.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/main.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/main.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/misc/binds.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/misc/status.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/modules/combat/clicker.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/modules/combat/reach.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/modules/combat/throwpot.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/modules/combat/velocity.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/modules/destruct/destruct.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/modules/movement/antiafk.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/modules/movement/bhop.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/modules/movement/fly.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/modules/movement/speed.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/modules/movement/timer.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/modules/visuals/cavefinder.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/modules/visuals/esp.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/modules/visuals/nametags.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/ntdll.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/scanner/scanner.cpp">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/xorstr.h">
+			<Option target="LithiumLite"/>
+		</Unit>
+		<Unit filename="C:/Users/world/Downloads/Lithium-Lite-Latest-main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
